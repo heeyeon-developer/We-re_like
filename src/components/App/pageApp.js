@@ -17,7 +17,7 @@ class App extends Component {
         { id: 3, title: 'Noodle' }
       ],
       breads: [
-        { id: 1, img: '/uploads/breads/01_bread.jpg', detail: '상세 설명'},
+        { id: 1, img: 'https://raw.githubusercontent.com/heeyeon-developer/We-re_like/master/public/uploads/breads/01_bread.jpg', detail: '상세 설명'},
         { id: 2, img: '/uploads/breads/02_bread.jpg', detail: '상세 설명'},
         { id: 3, img: '/uploads/breads/03_bread.jpg', detail: '상세 설명'},
         { id: 4, img: '/uploads/breads/04_bread.jpg', detail: '상세 설명'},
