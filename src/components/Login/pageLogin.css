@@ -2,5 +2,42 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-color: lightsalmon;
+}
+.Login img{
+    display: block;
+    width: 10vw;
+    margin: 0 auto;
+}
+.logincenter{
+    position: absolute;
+    display: block;
+    width: 50vw;
+    height: 50vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+}
+.logincenter div{
+    display: block;
+    width: 30vw;
+    height: 30vh;
+    margin: 0 auto;
+}
+
+.logincenter label,input{
+    display: block;
+    width: 20vw;
+    height: 3vh;
+    margin: 1vh auto;
+}
+
+.logincenter button,h2{
+    display: block;
+    text-align: center;
+    width: 5vw;
+    margin: 3vh auto;
+}
+.logincenter button{
+    width: 5vw;
 }

@@ -8,7 +8,21 @@ class Login extends Component {
 
         return (
             <div className="Login" id={this.props.id}>
-                로그인 하는 페이지 입니다.
+                <div class="logincenter">
+                    <img src="https://raw.githubusercontent.com/heeyeon-developer/We-re_like/master/public/logo.png"></img>
+                    <form method="post" id="authForm" action="https://www.tistory.com/auth/login">
+                        <div>
+                            <h2>Login</h2>
+                            <label for="loginId">ID</label>
+                            <input type="email" id="loginId" name="loginId" placeholder="ID" ></input><br></br>
+                            <label for="loginPw">Password</label>
+                            <input type="password" id="loginPw" name="password" placeholder="Password" ></input>
+                            <button type="submit" disabled="disabled">Login</button>
+                            <button type="submit" disabled="disabled">Register</button>
+                        </div>
+                    </form>
+                </div>
+                
             </div>
             
         );

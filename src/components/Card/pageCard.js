@@ -8,8 +8,11 @@ class Card extends Component {
         return (
             <div className="Card">
                 <div>
-                <img src={data.img}></img>
-                <div>{data.detail}</div>
+                    
+                    <img src={data.img}></img><br></br>
+                    <br></br>
+                    <div >{data.detail}</div><br></br>
+                    <div >{data.prices}</div>
                 </div>
             </div>
         );
