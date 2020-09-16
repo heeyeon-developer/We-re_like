@@ -14,8 +14,10 @@ class Nav extends Component {
 
         return (
             <div className='Nav'>
-                <div>
                     {list}
+                <div class='left'>
+                    <a href="#Select" style={{ marginTop: '0'}}><img style={{width: '50px'}} src='/uploads/take_it.png'></img></a>
+                    <a href="#Login" ><p style={{marginTop:'0.3rem'}}>Login</p></a>
                 </div>
             </div>
         );

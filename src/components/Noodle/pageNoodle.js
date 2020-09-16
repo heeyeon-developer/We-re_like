@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Card from '../Card/pageCard';
 import Box from '../Box/pageBox';
-import './pageBread.css';
+import './pageNoodle.css';
 //리액트는 이미지를 올릴때 public에 올려야 불러올 수 있음
-class Bread extends Component {
+class Noodle extends Component {
     render() {
 
         var list = [];
@@ -15,13 +15,13 @@ class Bread extends Component {
         }
 
         return (
-            <div className="Bread">
+            <div className="Noodle">
                 <div style={{ paddingTop: '7vw' }} id={this.props.id}>
-                    <div style={{ width: '100vw'}}>
-                        <img style={{ width: '270px', margin: '0 auto',display: 'block' }} src='/uploads/logo_bread.png'></img>
+                    <div style={{ width: '100vw' }}>
+                        <img style={{ width: '270px', margin: '0 auto', display: 'block' }} src='/uploads/logo_noodle.png'></img>
                     </div>
-                        <Box></Box>
-                    <div style={{ width: '90vw', verticalAlign: 'bottom',margin: '0 auto', display: 'block' }}>
+                    <Box></Box>
+                    <div style={{ width: '90vw', verticalAlign: 'bottom', margin: '0 auto', display: 'block' }}>
                         {list}
                     </div>
                 </div>
@@ -30,4 +30,4 @@ class Bread extends Component {
     }
 }
 
-export default Bread;
+export default Noodle;

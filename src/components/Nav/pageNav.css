@@ -1,21 +1,32 @@
 .Nav{
-    
-    z-index: -10;
-    /* position: fixed; */
+    z-index: 10;
     left: 0;
     top: 0;
+    vertical-align: bottom;
     background-color: white;
     border-bottom: 1px solid lightsteelblue;
     width: 100vw;
-    height: 5vh; 
+    height: 6vh; 
 }
 
 .Nav a{
-    float: left;
     display: inline-block;
     text-decoration: none;
     color: black;
     margin: 0.7rem;
-    margin-right: 2rem;
+    margin: 1rem 3rem;
     font-size: 1.5rem;
+}
+.left{
+    display: block;
+    width: 20vw;
+    float: right;
+}
+.left a{
+    display: inline-block;
+    vertical-align: bottom;
+    height: 10vh;
+    margin-top: 0.5rem;
+    width: 5vw;
+    margin-right: 2vw;
 }
