@@ -7,6 +7,7 @@
     background-color: white;
     border: 1px solid rgb(179, 179, 179);
     text-align: center;
+    font-size: 1.4vw;
 }
 
 .Card:hover{
@@ -19,5 +20,6 @@
     overflow: hidden;
     border-bottom: 1px solid rgba(171, 171, 171, 0.673);
     overflow: hidden;
+    margin-bottom: 0.3vh;
     align-items: center;
 }

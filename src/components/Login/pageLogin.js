@@ -10,7 +10,7 @@ class Login extends Component {
             <div className="Login" id={this.props.id}>
                 <div class="logincenter">
                     <img src="https://raw.githubusercontent.com/heeyeon-developer/We-re_like/master/public/logo.png"></img>
-                    <form method="post" id="authForm" action="https://www.tistory.com/auth/login">
+                    <form method="post" id="authForm" >
                         <div>
                             <h2>Login</h2>
                             <label for="loginId">ID</label>

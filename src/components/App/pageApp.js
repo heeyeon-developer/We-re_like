@@ -40,7 +40,7 @@ class App extends Component {
         { id: 8, img: 'https://raw.githubusercontent.com/heeyeon-developer/We-re_like/master/public/uploads/rice/08_rice.jpg', detail: '상세 설명', prices: '3000원' },
       ],
       noodle: [
-        { id: 1, img: 'https://raw.githubusercontent.com/heeyeon-developer/We-re_like/master/public/uploads/noodle/01_noodle.webp', detail: '상세 설명', prices: '3000원' },
+        { id: 1, img: 'https://raw.githubusercontent.com/heeyeon-developer/We-re_like/master/public/uploads/noodle/01_noodle.jpg', detail: '상세 설명', prices: '3000원' },
         { id: 2, img: 'https://raw.githubusercontent.com/heeyeon-developer/We-re_like/master/public/uploads/noodle/02_noodle.jpg', detail: '상세 설명', prices: '3000원' },
         { id: 3, img: 'https://raw.githubusercontent.com/heeyeon-developer/We-re_like/master/public/uploads/noodle/03_noodle.jpg', detail: '상세 설명', prices: '3000원' },
         { id: 4, img: 'https://raw.githubusercontent.com/heeyeon-developer/We-re_like/master/public/uploads/noodle/04_noodle.jpg', detail: '상세 설명', prices: '3000원' },

@@ -12,7 +12,7 @@ class Select extends Component {
                 <div class="selectcenter">
                     <form method="post" id="authForm">
                         <div class="wraplist">
-                            <h1>Purchase List</h1>
+                            <h1 style={{fontSize: '2vh',textAlign:'center',width: '30vw'}}>Purchase List</h1>
                             <div>list1</div>
                             <div>list2</div>
                             <div>list3</div>
@@ -22,7 +22,7 @@ class Select extends Component {
                             <div>total</div>
                         </div>
                         <div>
-                        <div class='wrapbutton'>
+                        <div style={{border: 'none'}} class='wrapbutton'>
                             <button type="submit" disabled="disabled">Delete</button>
                             <button type="submit" disabled="disabled">Order</button>
                         </div>

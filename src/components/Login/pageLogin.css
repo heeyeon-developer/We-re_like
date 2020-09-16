@@ -5,13 +5,13 @@
 }
 .Login img{
     display: block;
-    width: 10vw;
+    width: 15vh;
     margin: 0 auto;
 }
 .logincenter{
     position: absolute;
     display: block;
-    width: 50vw;
+    width: 80vw;
     height: 50vh;
     top: 50%;
     left: 50%;
@@ -27,7 +27,7 @@
 
 .logincenter label,input{
     display: block;
-    width: 20vw;
+    width: 17vh;
     height: 3vh;
     margin: 1vh auto;
 }
@@ -35,9 +35,9 @@
 .logincenter button,h2{
     display: block;
     text-align: center;
-    width: 5vw;
+    width: 20vw;
     margin: 3vh auto;
 }
 .logincenter button{
-    width: 5vw;
+    width: 10vh;
 }
