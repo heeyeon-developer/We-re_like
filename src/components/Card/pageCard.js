@@ -9,8 +9,10 @@ class Card extends Component {
             <div className="Card">
                 <div>
                     <img src={data.img}></img>
+                    <div class='best'>{data.button}</div>
                     <div >{data.detail}</div>
                     <div >{data.prices}</div>
+                    
                 </div>
             </div>
         );

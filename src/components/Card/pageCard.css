@@ -27,6 +27,13 @@
     margin-bottom: 0.7vh;
     align-items: center;
 }
+.best{
+    margin: 0 auto;
+    display: block;
+    width: 7vw;
+    border-radius: 10px;
+    background-color: rgb(255, 223, 219);
+}
 
 @media (max-width: 906px){
     .Card{    
@@ -43,6 +50,12 @@
     width: 110%;
     height: 27vw;
     transform: translate(-3%,-3%);
+}
+.best{
+    display: block;
+    width: 20vw;
+    heith: 10vh;
+    background-color: linen;
 }
 
 }
