@@ -1,5 +1,5 @@
 select { 
-    width: 30vw; 
+    width: 20vw; 
     height: 6vh;
     padding: .8em .5em;
     font-size: 2vh;
@@ -14,4 +14,12 @@ select {
     display: block;
     margin-left: 10vw;
     width: 15vw;
+}
+@media (max-width: 768px){
+    select { 
+    width: 30vw; 
+    height: 4vh;
+    font-size: 1.1vh;
+    }
+
 }

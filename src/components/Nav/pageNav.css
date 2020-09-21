@@ -7,8 +7,9 @@
     border-bottom: 1px solid lightsteelblue;
     width: 100vw;
     height: 6vh; 
+    vertical-align: bottom;
+    /* border: 1px solid #000; */
 }
-
 .Nav a{
     display: inline-block;
     color: black;

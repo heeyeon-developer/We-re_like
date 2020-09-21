@@ -27,7 +27,7 @@
 
 .logincenter label,input{
     display: block;
-    width: 17vh;
+    width: 27vh;
     height: 3vh;
     margin: 1vh auto;
 }
@@ -40,4 +40,9 @@
 }
 .logincenter button{
     width: 10vh;
+}
+@media (max-width: 768px){
+    .logincenter label,input{
+    width: 17vh;
+}
 }

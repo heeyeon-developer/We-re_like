@@ -18,7 +18,7 @@ class Bread extends Component {
             <div className="Bread">
                 <div style={{ paddingTop: '8vh' }} id={this.props.id}>
                     <div style={{ width: '100vw'}}>
-                        <img style={{ width: '25vh', margin: '0 auto', display: 'block' }} src='https://raw.githubusercontent.com/heeyeon-developer/We-re_like/master/public/uploads/logo_bread.png'></img>
+                        <img style={{ width: '35vh', margin: '0 auto', display: 'block' }} src='https://raw.githubusercontent.com/heeyeon-developer/We-re_like/master/public/uploads/logo_bread.png'></img>
                     </div>
                         <Box></Box>
                     <div style={{ width: '90vw', verticalAlign: 'bottom',margin: '0 auto', display: 'block' }}>
