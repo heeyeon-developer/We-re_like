@@ -13,6 +13,7 @@
 .Nav a{
     display: inline-block;
     color: black;
+    /* border: 1px solid #000; */
     margin: 1rem 0.3rem;
     margin-left: 2rem;
     font-size: 2vh;
@@ -30,4 +31,18 @@
     margin: 0;
     margin-top: 0.6rem;
     margin-right: 1rem;
+}
+.left a img{
+    width: 37px;
+}
+@media (max-width: 906px){
+    .left a img{
+        width: 5vw;
+    }
+}
+@media (max-width: 768px){
+    .left a img{
+        margin-top: 2vh;
+        width: 8vw;
+    }
 }

@@ -28,7 +28,7 @@
     align-items: center;
 }
 
-@media (max-width: 768px){
+@media (max-width: 906px){
     .Card{    
     width: 35vw;
     height: 33vw;
