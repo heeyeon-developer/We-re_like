@@ -12,7 +12,6 @@ class Card extends Component {
                     <div class='best'>{data.button}</div>
                     <div >{data.detail}</div>
                     <div >{data.prices}</div>
-                    
                 </div>
             </div>
         );

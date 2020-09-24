@@ -14,7 +14,7 @@ class Nav extends Component {
 
         return (
             <div className='Nav'>
-                    {list}
+                {list}
                 <div class='left'>
                     <div style={{float: 'right',display: 'block', width: '15vw', borderColor: '1px solid purple'}}>
                         <a href="#Login" ><p style={{marginTop:'0.3rem'}}>Login</p></a>

@@ -55,14 +55,13 @@ class App extends Component {
   return (
     <div className="App" style={{width: '100vw',height: '100vh'}}>
       <div style={{ zIndex: '1',position: 'fixed', width: '100%',height: '8rem'}}>
-        <Nav data={this.state.titles}/>
+        <Nav data={this.state.titles} />
       </div>
       <Bread data={this.state.breads} id="Bread" />
       <Rice data={this.state.rice} id="Rice" />
       <Noodle data={this.state.noodle}id="Noodle" />  
-
       <Login id="Login"></Login>    
-      <Select id="Select"></Select>    
+      <Select id="Select"></Select>
     </div>
   );
   }
