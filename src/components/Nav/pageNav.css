@@ -18,12 +18,12 @@
     margin-left: 2rem;
     font-size: 2vh;
 }
-.left{
+#left{
     display: block;
     width: 10vw;
     float: right;
 }
-.left a{
+#left a{
     display: inline-block;
     vertical-align: bottom;
     width: 5vw;
@@ -32,16 +32,16 @@
     margin-top: 0.6rem;
     margin-right: 1rem;
 }
-.left a img{
+#left a img{
     width: 37px;
 }
 @media (max-width: 906px){
-    .left a img{
+    #left a img{
         width: 5vw;
     }
 }
 @media (max-width: 768px){
-    .left a img{
+    #left a img{
         margin-top: 2vh;
         width: 8vw;
     }

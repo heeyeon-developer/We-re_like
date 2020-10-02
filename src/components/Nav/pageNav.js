@@ -15,7 +15,7 @@ class Nav extends Component {
         return (
             <div className='Nav'>
                 {list}
-                <div class='left'>
+                <div id='left'>
                     <div style={{float: 'right',display: 'block', width: '15vw', borderColor: '1px solid purple'}}>
                         <a href="#Login" ><p style={{marginTop:'0.3rem'}}>Login</p></a>
                         <a href="#Select" style={{ marginTop: '0' }}><img src='https://raw.githubusercontent.com/heeyeon-developer/We-re_like/master/public/uploads/take_it.png'></img></a>

@@ -6,6 +6,7 @@ import Noodle from '../Noodle/pageNoodle'
 import Login from '../Login/pageLogin'
 import Select from '../Select/pageSelect'
 import './pageApp.css';
+import { Link } from 'react-router-dom';
 
 class App extends Component {
 
@@ -53,14 +54,21 @@ class App extends Component {
 
   render(){
   return (
-    <div className="App" style={{width: '100vw',height: '100vh'}}>
-      <div style={{ zIndex: '1',position: 'fixed', width: '100%',height: '8rem'}}>
+    <div className="App" style={{ width: "100vw", height: "100vh" }}>
+      <div
+        style={{
+          zIndex: "1",
+          position: "fixed",
+          width: "100%",
+          height: "8rem",
+        }}
+      >
         <Nav data={this.state.titles} />
       </div>
       <Bread data={this.state.breads} id="Bread" />
       <Rice data={this.state.rice} id="Rice" />
-      <Noodle data={this.state.noodle}id="Noodle" />  
-      <Login id="Login"></Login>    
+      <Noodle data={this.state.noodle} id="Noodle" />
+      <Login id="Login"></Login>
       <Select id="Select"></Select>
     </div>
   );
