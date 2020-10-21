@@ -6,7 +6,7 @@ import Noodle from '../Noodle/pageNoodle'
 import Login from '../Login/pageLogin'
 import Select from '../Select/pageSelect'
 import './pageApp.css';
-import { Link } from 'react-router-dom';
+import { Route, Router, Switch } from 'react-router-dom';
 
 class App extends Component {
 
